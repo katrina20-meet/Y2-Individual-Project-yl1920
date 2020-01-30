@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '--production.' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/student/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune student
+21 silly idealTree:prePrune └── bootstrap@3.4.1
+22 silly loadIdealTree Finishing
+23 silly currentTree student
+23 silly currentTree └── bootstrap@3.4.1
+24 silly idealTree student
+24 silly idealTree └── bootstrap@3.4.1
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 warn checkPermissions Missing write access to /home/student/node_modules
+28 silly rollbackFailedOptional Starting
+29 silly rollbackFailedOptional Finishing
+30 silly runTopLevelLifecycles Starting
+31 silly runTopLevelLifecycles Finishing
+32 silly install printInstalled
+33 warn enoent ENOENT: no such file or directory, open '/home/student/package.json'
+34 warn student No description
+35 warn student No repository field.
+36 warn student No README data
+37 warn student No license field.
+38 verbose stack Error: EACCES: permission denied, access '/home/student/node_modules'
+39 verbose cwd /home/student/Desktop/personal-project
+40 error Linux 4.15.0-74-generic
+41 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--production."
+42 error node v8.10.0
+43 error npm  v3.5.2
+44 error path /home/student/node_modules
+45 error code EACCES
+46 error errno -13
+47 error syscall access
+48 error Error: EACCES: permission denied, access '/home/student/node_modules'
+48 error  { Error: EACCES: permission denied, access '/home/student/node_modules'
+48 error   errno: -13,
+48 error   code: 'EACCES',
+48 error   syscall: 'access',
+48 error   path: '/home/student/node_modules' }
+49 error Please try running this command again as root/Administrator.
+50 verbose exit [ -13, true ]
